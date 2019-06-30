@@ -1,0 +1,28 @@
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+.btn-primary,
+.btn-outline-primary {
+  color: $primary !important;
+  border-color: $primary !important;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle,
+.btn-outline-primary:hover {
+  background-color: $primary !important;
+  color: #fff !important;
+}
+
+a {
+  color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($primary, 15%);
+  }
+}
